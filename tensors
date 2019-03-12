@@ -1,0 +1,58 @@
+'''
+Tensors are similar to NumPy’s ndarrays, with the addition being
+that Tensors can also be used on a GPU to accelerate computing.
+'''
+from __future__ import print_function
+import torch
+
+x = torch.empty(5, 3)   #the output x is random, also can have nan value
+print('example x: torch.empty(5, 3):\n',x)
+
+y = torch.rand(4, 3)
+print('example y: torch.rand(4, 3):\n',y)
+
+z = torch.zeros(5, 3, dtype=torch.long)
+print('example z: torch.zeros(5, 3, dtype=torch.long):\n',z)
+
+#construct a tensor directly from data
+print('example: torch.tensor([5.5, 3]):\n',torch.tensor([5.5, 3]))
+
+#creat a tensor on an existing tensor
+print('example: x.new_ones(4, 3, dtype=torch.double)\n',x.new_ones(4, 3, dtype=torch.double))\
+    #new_ones will not change x
+print('torch.randn_like(y, dtype=torch.float)\n',torch.randn_like(y, dtype=torch.float))
+print('Get x size:',x.size())   #torch.Size is in fact a tuple, so it supports all tuple operations.
+
+'''
+OUTPUT
+example x: torch.empty(5, 3):
+ tensor([[ 0.0000e+00, -2.0000e+00,  0.0000e+00],
+        [-2.0000e+00,  1.4569e-19,  2.7517e+12],
+        [ 7.5338e+28,  3.0313e+32,  6.3828e+28],
+        [ 1.4603e-19,  1.0899e+27,  6.8943e+34],
+        [ 1.1835e+22,  7.0976e+22,  1.8515e+28]])
+example y: torch.rand(4, 3):
+ tensor([[0.6902, 0.6167, 0.7170],
+        [0.8967, 0.3004, 0.0981],
+        [0.8021, 0.0529, 0.5554],
+        [0.4064, 0.5526, 0.0964]])
+example z: torch.zeros(5, 3, dtype=torch.long):
+ tensor([[0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0]])
+example: torch.tensor([5.5, 3]):
+ tensor([5.5000, 3.0000])
+example: x.new_ones(4, 3, dtype=torch.double)
+ tensor([[1., 1., 1.],
+        [1., 1., 1.],
+        [1., 1., 1.],
+        [1., 1., 1.]], dtype=torch.float64)
+torch.randn_like(y, dtype=torch.float)
+ tensor([[-2.3485,  2.0121,  2.0369],
+        [ 0.8375,  0.3099, -0.6716],
+        [-0.9703,  1.4724, -0.2222],
+        [ 0.3578,  0.4898,  0.3055]])
+get x size: torch.Size([5, 3])
+'''
