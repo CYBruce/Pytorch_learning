@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6796e5f9-a1dd-4348-8569-bdbe11241c2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Autograd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Neural_Networks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Numpy_bridge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autograd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autograd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neural_Networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neural_Networks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Neural_Networks.coverage" NAME="Neural_Networks Coverage Results" MODIFIED="1552445142804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Autograd.coverage" NAME="Autograd Coverage Results" MODIFIED="1552447179386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Neural_Networks.coverage" NAME="Neural_Networks Coverage Results" MODIFIED="1552563487941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Autograd.coverage" NAME="Autograd Coverage Results" MODIFIED="1552458241776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Numpy_bridge.coverage" NAME="Numpy_bridge Coverage Results" MODIFIED="1552442991696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/A_60_MINUTE_BLITZ$Operations.coverage" NAME="Operations Coverage Results" MODIFIED="1552399651934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -23,10 +22,11 @@
     <session id="1319017139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,23 +42,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1120" />
+          <entry key="py" value="1419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1120" />
+          <entry key="Python" value="1419" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Autograd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
                 <element signature="e#243#255#0" expanded="true" />
               </folding>
@@ -66,11 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Neural_Networks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="294">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/Operations.py" />
         <option value="$PROJECT_DIR$/Numpy_bridge.py" />
-        <option value="$PROJECT_DIR$/Neural_Networks.py" />
         <option value="$PROJECT_DIR$/Autograd.py" />
+        <option value="$PROJECT_DIR$/Neural_Networks.py" />
       </list>
     </option>
   </component>
@@ -104,9 +107,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
+    <option name="x" value="553" />
     <option name="y" value="51" />
-    <option name="width" value="518" />
+    <option name="width" value="727" />
     <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Autograd">
+  <component name="RunManager" selected="Python.Neural_Networks">
     <configuration name="Autograd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="A 60 MINUTE BLITZ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,8 +248,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Autograd" />
         <item itemvalue="Python.Neural_Networks" />
+        <item itemvalue="Python.Autograd" />
         <item itemvalue="Python.Numpy_bridge" />
         <item itemvalue="Python.Operations" />
       </list>
@@ -266,11 +269,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="51" width="518" height="720" extended-state="0" />
+    <frame x="553" y="51" width="727" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25432527" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2540146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24963504" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -320,19 +323,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks.py">
+    <entry file="file://$PROJECT_DIR$/Autograd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#243#255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Autograd.py">
+    <entry file="file://$PROJECT_DIR$/Neural_Networks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="294">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
-            <element signature="e#243#255#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

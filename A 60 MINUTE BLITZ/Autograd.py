@@ -28,8 +28,9 @@ print(b.grad_fn)  # <SumBackward0 object at 0x10c56e438>
 # is equivalent to out.backward(torch.tensor(1.))
 out.backward()
 print(x.grad)
-print(y.grad)  # y.grad = None
 print(y.requires_grad)
+print(y.grad)  # y.grad = None, can use register_hook function
+print(y.grad_fn)
 
 #Vector-Jacobian product
 x = torch.randn(3, requires_grad=True)
